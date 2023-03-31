@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var w = prompt("enter value")
+    var a = "2TimesN";
+    var b = w.split("");
+    // console.log(b[0]);
+
+    function test() {
+        if (isNaN(b[0])) {
+            console.log(" TRUE  it is not start with number");
+
+
+        }
+        else {
+            console.log(" FALSE it start with Number");
+        }
+
+
+        for (let i = 0; i < b.length; i++) {
+            if (b[i] == " ") {
+                console.log("FALSE  it contain space");
+            }
+
+
+
+        }
+
+        return true;
+    }
+
+    test();
+</script>
+
+</html>
